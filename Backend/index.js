@@ -13,7 +13,7 @@ app.use(express.json());
 
 dotenv.config();
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 4001;
 const URI = process.env.MongoDBURI;
 
 // connect to mongoDB
@@ -26,6 +26,10 @@ try {
 } catch (error) {
     console.log("Error: ", error);
 }
+//health check
+app.get('/', (req,res)=>{
+    res.status(200).send("success")
+})
 
 // defining routes
 app.use("/book", bookRoute);
