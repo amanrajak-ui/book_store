@@ -2,7 +2,7 @@
 
 A fully functional Book Store web application built with the MERN Stack (MongoDB, Express.js, React.js, Node.js), featuring secure authentication, a free & paid book reading system, and a smooth user experience.
 
-![Book Store Banner](https://your-image-url.com/banner.png)
+[Screenshot (116)](https://github.com/user-attachments/assets/4d5f908a-8d50-485a-b9f2-b01df974ddd2)
 
 ---
 
@@ -40,5 +40,5 @@ A fully functional Book Store web application built with the MERN Stack (MongoDB
 ```bash
 git clone https://github.com/your-username/book-store.git
 cd book-store
-![Screenshot (116)](https://github.com/user-attachments/assets/4d5f908a-8d50-485a-b9f2-b01df974ddd2)
+[Screenshot (116)](https://github.com/user-attachments/assets/4d5f908a-8d50-485a-b9f2-b01df974ddd2)
 
